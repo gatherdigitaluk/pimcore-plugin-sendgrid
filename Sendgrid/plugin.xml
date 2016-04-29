@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
     <plugin>
-        <pluginName>S3</pluginName>
-        <pluginDescription><![CDATA[Amazon S3 Integration]]></pluginDescription>
+        <pluginName>SendGrid</pluginName>
+        <pluginDescription><![CDATA[SendGrid Integration]]></pluginDescription>
 
         <!-- meta data -->
         <pluginVersion>1.0</pluginVersion>
@@ -13,16 +13,16 @@
         <pluginIframeSrc />
 
         <!-- className of the plugin which extends Pimcore_API_Plugin_Abstract-->
-        <pluginClassName>\S3\Plugin</pluginClassName>
+        <pluginClassName>\SendGrid\Plugin</pluginClassName>
 
         <!-- include paths relative to plugin-directory -->
         <pluginIncludePaths>
-            <path>/S3/lib</path>
+            <path>/SendGrid/lib</path>
         </pluginIncludePaths>
 
         <!-- namespaces to register with autoloader-->
         <pluginNamespaces>
-            <namespace>S3</namespace>
+            <namespace>SendGrid</namespace>
         </pluginNamespaces>
 
         <!-- js files with path relative to plugin-directory -->
