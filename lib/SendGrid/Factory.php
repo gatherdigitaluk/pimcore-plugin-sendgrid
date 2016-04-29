@@ -10,7 +10,7 @@
  * @copyright  Copyright (c) 2014-2016 Gather Digital Ltd (https://www.gatherdigital.co.uk)
  * @license    https://www.gatherdigital.co.uk/license     GNU General Public License version 3 (GPLv3)
  */
-namespace SendGrid;
+namespace Sendgrid;
 
 use SendGrid;
 

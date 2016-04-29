@@ -11,7 +11,7 @@
  * @license    https://www.gatherdigital.co.uk/license     GNU General Public License version 3 (GPLv3)
  */
 
-namespace SendGrid;
+namespace Sendgrid;
 
 use Pimcore\API\Plugin as PluginLib;
 use Pimcore\Model\WebsiteSetting;

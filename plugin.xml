@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
     <plugin>
-        <pluginName>SendGrid</pluginName>
+        <pluginName>Sendgrid</pluginName>
         <pluginDescription><![CDATA[SendGrid Integration]]></pluginDescription>
 
         <!-- meta data -->
@@ -13,16 +13,17 @@
         <pluginIframeSrc />
 
         <!-- className of the plugin which extends Pimcore_API_Plugin_Abstract-->
-        <pluginClassName>\SendGrid\Plugin</pluginClassName>
+        <pluginClassName>\Sendgrid\Plugin</pluginClassName>
 
         <!-- include paths relative to plugin-directory -->
         <pluginIncludePaths>
-            <path>/SendGrid/lib</path>
+            <path>/Sendgrid/lib</path>
         </pluginIncludePaths>
 
         <!-- namespaces to register with autoloader-->
         <pluginNamespaces>
-            <namespace>SendGrid</namespace>
+            <!-- NOTE THE LOWERCASE g DUE TO PIMCORE PLUGIN INSTALLER AUTOMATICALLY TAKING THE PLUGIN FOLDER NAME FROM THE COMPOSER NAME :-) -->
+            <namespace>Sendgrid</namespace>
         </pluginNamespaces>
 
         <!-- js files with path relative to plugin-directory -->
