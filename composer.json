@@ -1,6 +1,6 @@
 {
     "name": "gatherdigital-pimcore-plugin/sendgrid",
-    "description": "SendGrid Bucket Sync for Pimcore",
+    "description": "An extended Sendgrid client for Pimcore. API details available via Website Settings and Automatic logging enabled in Logger",
     "type": "pimcore-plugin",
     "license": "GPL-3.0+",
     "keywords": ["pimcore","plugin", "sendgrid"],
