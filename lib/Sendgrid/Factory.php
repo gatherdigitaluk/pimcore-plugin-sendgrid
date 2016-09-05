@@ -12,15 +12,13 @@
  */
 namespace Sendgrid;
 
-use SendGrid;
-
 class Factory
 {
 
 
     /**
      * Returns the fdefault sendgrid client for use elsewhere
-     * @return \SendGrid
+     * @return Client
      * @throws \Exception
      */
     public static function getDefaultClient()
@@ -43,7 +41,7 @@ class Factory
             'raise_exceptions'          => (bool) $config->get('plugin_sendgrid_raise_exceptions')
         ];
 
-        return new SendGrid($apiKey, $options);
+        return new Client($apiKey, $options);
     }
 
 }
